@@ -1,0 +1,301 @@
+body{
+    background: #ffffff url("https://cdn.wallpapersafari.com/15/29/L1BxwQ.jpg") repeat right top;
+   
+}
+.card-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    margin-top: 50px;
+    border: thin gray;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content; 
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #ffffff url("https://cdn.wallpapersafari.com/15/29/L1BxwQ.jpg") repeat right top;
+
+}
+.carditem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   margin-top: 50px;
+   margin-right: 10px;
+
+    
+}
+.cardpic{
+    height: 48px;
+    width: 72px;
+    margin-right: 12px;
+    margin-left: 10px;
+}
+.features{
+   margin-left: 30%;
+font-size: 40px;
+margin-top: 10px;
+font-weight: bold;
+}
+
+.section2{
+    background: #ffffff url("https://th.bing.com/th/id/OIP.CoS-Q1NtHpaxYuDbGPVOVwHaEK?w=310&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7") repeat right top;
+   
+}
+.card-section2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin: 20px;
+    height: 360px;
+}
+.card-section2-image{
+    width: 1200px;
+    height: 276px;
+    margin: 11px;
+    margin-top: 40px;
+}
+.card-section2-body{
+  margin-top: 50px;
+  margin-bottom: 6px;
+}
+
+.mainfooter{
+    display: grid;
+    grid-template-columns: 71vh repeat(3, 1fr);
+    grid-column-gap: 150px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+.contact-img{
+    width: 97px;
+    height: 99px;
+    margin-right: 10px;
+}
+li{
+    list-style: none;
+}
+.mainfooter{
+    padding: 20px;
+}
+.playstore{
+    width: 100px;
+    height: 70px;
+}
+ .section3headings{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 40px;
+    justify-content: space-between;
+ }
+.section3{
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    padding: 3rem;
+}
+.card{
+    min-width: 314px;
+        height: 514px;
+        border-radius: 16px;
+        box-shadow: -1rem 0 3rem #000;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        transition: 0.2s;
+}
+.card-text-sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.prevprice{
+    text-decoration: line-through;
+    color: dimgray;
+}
+.butn{
+    background-color: rgb(255, 230, 0);
+    color: #000;
+    width: 120px;
+    outline: none;
+    height: 50px;
+    border: none;
+    border-radius: 28px;
+
+}
+.card-img-top{
+    width: 264;
+    height: 264px;
+}
+.green{
+    color: green;
+   
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    /* background: #ffffff url("https://th.bing.com/th/id/OIP.aK736llUkvv5REh9E0XGogHaEo?pid=ImgDet&rs=1") repeat right top; */
+    padding: 40px;
+    height: 400px;
+}
+.strt-testimonials{
+    background: #ffffff url("https://th.bing.com/th/id/OIP.CoS-Q1NtHpaxYuDbGPVOVwHaEK?w=310&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7") repeat right top;
+    text-align: center;
+    padding: 10px;
+}
+.mcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.testimg{
+    width: 202px;
+    height: 202px;
+    margin-right: 20px;
+}
+footer{
+    background: #ffffff url("https://cdn.wallpapersafari.com/15/29/L1BxwQ.jpg") repeat right top;
+}
+
+
+ /* //media queries */
+@media screen and (max-width: 1025px){
+    .card-section2{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+    .card-section2-image{
+        width: 371px;
+        height: 276px;
+        margin: 11px;
+    }
+    .contact-img {
+        width: 67px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    .card{
+        min-width: 100px;
+    height: 300px;
+    
+        
+    }
+    .first4{
+        display: none;
+    }
+    
+    .section3{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 1rem;
+    }
+    
+    .card-img-top{
+        width: 154px;
+    height: 155px;
+    }
+    .cbsection3{
+font-size: larger;
+    }
+    .h5changing{
+        font-size: 12px;
+    font-weight: bold;
+       }
+       .card-text-sec3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+    .green{
+            color: green;
+           font-size: 10px;
+    }
+    .mainfooter{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .butn {
+        background-color: rgb(255, 230, 0);
+        color: #000;
+        width: 59px;
+        outline: none;
+        height: 15px;
+        border: none;
+        border-radius: 28px;
+        font-size: 8px;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        overflow-x: scroll;
+        padding: 40px;
+    }
+   .is2{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        margin-top: 100px;
+    }
+    .is1{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .testimg {
+        width: 170px;
+        height: 167px;
+        margin-right: 20px;
+    }
+
+    .text h4{
+        font-size: 15px;
+    }
+    .card-body{
+        padding: 5px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1025px){
+    .features{
+        margin-left: 45%;
+     font-size: 40px;
+     margin-top: 10px;
+     }
+    
+     .card-section{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        margin-top: 50px;
+        border: thin gray;
+        box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+        border-radius: 5px;
+        height: 240px;
+        width: 98%; 
+        margin-left: 12px;
+        margin-right: 12px;
+    
+    }
+    .card1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        margin-top: 50px;
+    }
+  
+
+    }
+
+   
